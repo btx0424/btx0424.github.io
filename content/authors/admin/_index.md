@@ -119,5 +119,7 @@ social:
 highlight_name: true
 ---
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Hello there! I am Botian Xu, currently spending my gap year as a research intern at Tsinghua University with [Prof. Yi Wu](https://jxwuyi.weebly.com/). Previously, I got my bachelor's degree in Computer Science from SUSTech in 2022. My current interest is mainly about building intelligent agents capable of actively exploring and learning from open environments, connecting the primary aspects of intelligence, i.e., perception and decision-making, in a synergetic way.
+
+As an initial step, I am currently trying to create agile and adaptive control policies for drones and legged robots. 
 {style="text-align: justify;"}
