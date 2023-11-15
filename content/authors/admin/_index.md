@@ -1,6 +1,6 @@
 ---
 # Display name
-title: btx0424
+title: Botian Xu
 
 # Name pronunciation (optional)
 # name_pronunciation: Chien Shiung Wu
