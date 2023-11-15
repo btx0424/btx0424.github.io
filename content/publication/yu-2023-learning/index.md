@@ -4,7 +4,7 @@ authors:
 - Chao Yu
 - Jiaxuan Gao
 - Weilin Liu
-- Botian Xu
+- admin
 - Hao Tang
 - Jiaqi Yang
 - Yu Wang

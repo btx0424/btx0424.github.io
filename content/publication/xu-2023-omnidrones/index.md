@@ -2,7 +2,7 @@
 title: 'OmniDrones: An Efficient and Flexible Platform for Reinforcement Learning
   in Drone Control'
 authors:
-- Botian Xu
+- admin
 - Feng Gao
 - Chao Yu
 - Ruize Zhang
@@ -15,4 +15,8 @@ publication_types:
 links:
 - name: arXiv
   url: https://arxiv.org/abs/2309.12825
+- name: code
+  url: https://github.com/btx0424/OmniDrones
+- name: website
+  url: https://omnidrones.readthedocs.io/en/latest/
 ---
