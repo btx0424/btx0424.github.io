@@ -122,7 +122,7 @@ highlight_name: true
 > “The highest activity a human being can attain is learning for understanding, because to understand is to be free.”
 > ― Baruch Spinoza
 
-Hello there! I am Botian Xu, currently spending my gap year as a research intern at Tsinghua University, working with [Prof. Yi Wu](https://jxwuyi.weebly.com/). Previously, I got my bachelor's degree in Computer Science from SUSTech in 2022. My current interest lies in building intelligent agents capable of actively exploring and learning from open environments. 
+Hello there! I am Botian Xu, currently a member of the Tsinghua Embodied AI Lab with [Prof. Huazhe Xu](http://hxu.rocks/). Previously, I spent a gap year working with [Prof. Yi Wu](https://jxwuyi.weebly.com/) after obtaining my bachelor's degree in Computer Science from SUSTech in 2022. My current interest lies in building intelligent agents capable of actively exploring and learning from open environments.
 
 As an initial step, I am working on learning agile and adaptive control policies for drones and legged robots. 
 {style="text-align: justify;"}

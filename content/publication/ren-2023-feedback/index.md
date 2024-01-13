@@ -2,7 +2,7 @@
 title: Feedback RoI Features Improve Aerial Object Detection
 authors:
 - Botao Ren
-- Botian Xu
+- admin
 - Tengyu Liu
 - Jingyi Wang
 - Zhidong Deng
