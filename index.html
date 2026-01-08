@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Botian XU (许博添) - Robotics & Reinforcement Learning Researcher</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Botian XU - PhD student at CUHK MAE working on reinforcement learning and robotics. Research on legged robots, force-adaptive control, and drone systems.">
+    <meta name="keywords" content="Botian XU, robotics, reinforcement learning, legged robots, drone control, CUHK, force-adaptive control, Isaac Sim, OmniDrones">
+    <meta name="author" content="Botian XU">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://yourwebsite.com/">
+    <meta property="og:title" content="Botian XU - Robotics & Reinforcement Learning Researcher">
+    <meta property="og:description" content="PhD student at CUHK MAE working on reinforcement learning and robotics. Research on legged robots, force-adaptive control, and drone systems.">
+    <meta property="og:image" content="https://yourwebsite.com/assets/photo.png">
+    
+    <!-- Twitter -->
+    <!-- <meta name="twitter:card" content="summary">
+    <meta name="twitter:url" content="https://yourwebsite.com/">
+    <meta name="twitter:title" content="Botian XU - Robotics & Reinforcement Learning Researcher">
+    <meta name="twitter:description" content="PhD student at CUHK MAE working on reinforcement learning and robotics. Research on legged robots, force-adaptive control, and drone systems.">
+    <meta name="twitter:image" content="https://yourwebsite.com/assets/photo.png"> -->
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/jpeg" href="assets/walker.jpg">
+    <link rel="apple-touch-icon" href="assets/walker.jpg">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.4/css/academicons.min.css">
+</head>
+
+<body>
+    <canvas id="gameOfLife"></canvas>
+    
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-brand">Botian XU</a>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#news" class="nav-link">News</a></li>
+                <li><a href="#publications" class="nav-link">Publications</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container" id="home">
+        <div class="photo">
+            <img src="assets/photo.png" alt="Botian XU">
+        </div>
+        <div class="bio">
+            <h1>Botian XU (许博添)</h1>
+            <p>Hi, there. I am currently a PhD student at <a href="https://www4.mae.cuhk.edu.hk/" target="_blank">CUHK MAE</a>. I received my B.S. in Computer Science from <a href="https://www.sustech.edu.cn/en/" target="_blank">SUSTech</a> in 2022.
+                After that, I spent 3 gap years at Tsinghua University, with
+                <a href="https://jxwuyi.weebly.com/" target="_blank">Prof. Yi Wu</a> and
+                <a href="https://hxu.rocks/" target="_blank">Prof. Huazhe Xu</a>, working on
+                reinforcement learning and robotics.</p>
+            
+            <p>Interests:</p>
+            <ul class="interests">
+                <li>Reinforcement Learning for Legged Robots</li>
+                <li>3D Modeling and Perception for Robot Agents</li>
+            </ul>
+
+            <p>I am lucky to work closely with <a href="https://xiaohu-art.github.io/">Liu Cao</a>, <a href="https://haoyangweng.pages.dev/">Qingzhou Lu</a>, and <a href="https://haoyangweng.pages.dev/">Haoyang Weng</a>.</p>
+
+            <div class="links">
+                <a href="https://scholar.google.com/citations?user=OLLsgKIAAAAJ&amp;hl=en" target="_blank" class="link-item">
+                    <i class="ai ai-google-scholar"></i>
+                    <span>Google Scholar</span>
+                </a>
+                <a href="https://github.com/Agent-3154" target="_blank" class="link-item">
+                    <i class="fab fa-github"></i>
+                    <span>GitHub</span>
+                </a>
+                <a href="mailto:btx0424@outlook.com" class="link-item">
+                    <i class="fas fa-envelope"></i>
+                    <span>btx0424@outlook.com</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="news" id="news">
+        <h2>News</h2>
+        <ul>
+            <li><strong>Sept. 2025:</strong> Our paper <a href="https://www.arxiv.org/abs/2505.06883">FACET:
+                    Force-Adaptive Control via Impedance Reference Tracking for Legged Robots</a> is accepted
+                for oral presentation at <em>CoRL 2025</em> in Seoul, Korea.</li>
+            <li><strong>Aug. 2025:</strong> I ended my journey at <a href="https://hxu.rocks/" target="_blank">TEA Lab</a> and became a PhD student at <a href="https://mae.cuhk.edu.cn/" target="_blank">CUHK MAE</a>.</li>
+        </ul>
+    </div>
+
+    <div class="publications" id="publications">
+        <h2>Selected Publications</h2>
+        <div class="publication-list">
+            <div class="publication">
+                <div class="pub-title">
+                    <a href="https://www.arxiv.org/abs/2505.06883" target="_blank">FACET: Force-Adaptive Control via Impedance Reference Tracking for Legged Robots</a>
+                </div>
+                <div class="pub-authors">Botian Xu*, Haoyang Weng*, Qingzhou Lu*, Yang Gao, Huazhe Xu</div>
+                <div class="pub-venue"><em>CoRL 2025 (Oral, top 10%)</em></div>
+            </div>
+
+            <div class="publication">
+                <div class="pub-title">
+                    <a href="https://arxiv.org/abs/2412.07237" target="_blank">ArtFormer: Controllable Generation of Diverse 3D Articulated Objects</a>
+                </div>
+                <div class="pub-authors">Jiayi Su*, Youhe Feng*, Zheng Li, Jinhua Song, Yangfan He, Botao Ren, Botian Xu</div>
+                <div class="pub-venue"><em>CVPR 2025 (top 15%)</em></div>
+            </div>
+
+            <div class="publication">
+                <div class="pub-title">
+                    <a href="https://arxiv.org/abs/2309.12825" target="_blank">OmniDrones: An Efficient and Flexible Platform for Reinforcement Learning in Drone Control
+                    </a>
+                </div>
+                <div class="pub-authors">Botian Xu*, Feng Gao*, Chao Yu, Ruize Zhang, Yi Wu, Yu Wang</div>
+                <div class="pub-venue"><em>IEEE RA-L & IROS 2024</em></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="projects" id="projects">
+        <h2>Projects</h2>
+        <div class="project-list">
+            <div class="project">
+                <div class="project-header">
+                    <div class="project-title">
+                        <a href="https://github.com/btx0424/OmniDrones" target="_blank">OmniDrones</a>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/btx0424/OmniDrones" target="_blank">[GitHub]</a>
+                        <a href="https://omnidrones.readthedocs.io/" target="_blank">[Docs]</a>
+                    </div>
+                </div>
+                <div class="project-description">
+                    An efficient and flexible platform for reinforcement learning in drone control, built on Isaac Sim and supporting various multi-rotor configurations.
+                </div>
+            </div>
+
+            <!-- <div class="project">
+                <div class="project-header">
+                    <div class="project-title">
+                        <a href="#" target="_blank">Project Name 2</a>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" target="_blank">[GitHub]</a>
+                        <a href="#" target="_blank">[Website]</a>
+                    </div>
+                </div>
+                <div class="project-description">
+                    Brief description of your project. Explain what it does and its key features.
+                </div>
+            </div> -->
+
+            <!-- <div class="project">
+                <div class="project-header">
+                    <div class="project-title">
+                        <a href="#" target="_blank">Project Name 3</a>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" target="_blank">[GitHub]</a>
+                    </div>
+                </div>
+                <div class="project-description">
+                    Brief description of your project. Explain what it does and its key features.
+                </div>
+            </div> -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
